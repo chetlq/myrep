@@ -1,0 +1,126 @@
+{
+  "time" : {
+    "start" : 1466193050267,
+    "stop" : 1466193050666,
+    "duration" : 399
+  },
+  "testSuites" : [ {
+    "uid" : "17c16940a4868d03",
+    "name" : "my.company.tests.SimpleTest",
+    "title" : "This is of calculate test",
+    "time" : {
+      "start" : 1466193050267,
+      "stop" : 1466193050666,
+      "duration" : 399
+    },
+    "statistic" : {
+      "total" : 9,
+      "passed" : 5,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 4,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "4b6aff4e36761f60",
+      "name" : "SimpleTest[0]",
+      "title" : "Simple test [0]",
+      "time" : {
+        "start" : 1466193050267,
+        "stop" : 1466193050602,
+        "duration" : 335
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "fff55d14e4198ae9",
+      "name" : "SimpleTest[1]",
+      "title" : "Simple test [1]",
+      "time" : {
+        "start" : 1466193050609,
+        "stop" : 1466193050639,
+        "duration" : 30
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "d089424748b4b884",
+      "name" : "SimpleTest[2]",
+      "title" : "Simple test [2]",
+      "time" : {
+        "start" : 1466193050640,
+        "stop" : 1466193050642,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "25e80677cca9f3f2",
+      "name" : "SimpleTest[3]",
+      "title" : "Simple test [3]",
+      "time" : {
+        "start" : 1466193050643,
+        "stop" : 1466193050648,
+        "duration" : 5
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "842161f991ee38fb",
+      "name" : "SimpleTest[4]",
+      "title" : "Simple test [4]",
+      "time" : {
+        "start" : 1466193050650,
+        "stop" : 1466193050653,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "5a4140e7209fcb73",
+      "name" : "SimpleTest[5]",
+      "title" : "Simple test [5]",
+      "time" : {
+        "start" : 1466193050654,
+        "stop" : 1466193050656,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "e5e096edd5b65595",
+      "name" : "SimpleTest[6]",
+      "title" : "Simple test [6]",
+      "time" : {
+        "start" : 1466193050657,
+        "stop" : 1466193050660,
+        "duration" : 3
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "cf4d57a6783c3be8",
+      "name" : "SimpleTest[7]",
+      "title" : "Simple test [7]",
+      "time" : {
+        "start" : 1466193050661,
+        "stop" : 1466193050663,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "FAILED"
+    }, {
+      "uid" : "934f0b3e50353e50",
+      "name" : "SimpleTest[8]",
+      "title" : "Simple test [8]",
+      "time" : {
+        "start" : 1466193050664,
+        "stop" : 1466193050666,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

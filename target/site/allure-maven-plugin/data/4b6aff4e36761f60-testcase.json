@@ -1,0 +1,62 @@
+{
+  "uid" : "4b6aff4e36761f60",
+  "name" : "SimpleTest[0]",
+  "title" : "Simple test [0]",
+  "time" : {
+    "start" : 1466193050267,
+    "stop" : 1466193050602,
+    "duration" : 335
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "17c16940a4868d03",
+    "name" : "my.company.tests.SimpleTest",
+    "title" : "This is of calculate test"
+  },
+  "steps" : [ {
+    "name" : "steper[1, 2, +, 3.0]",
+    "title" : "operand1 = 1;  operand2= 2; operation= \"+\"; result = 3",
+    "time" : {
+      "start" : 1466193050594,
+      "stop" : 1466193050597,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "Mycomp-PC"
+  }, {
+    "name" : "thread",
+    "value" : "7524@Mycomp-PC.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "my.company.tests.SimpleTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "This is of calculate test"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  } ],
+  "parameters" : [ ]
+}

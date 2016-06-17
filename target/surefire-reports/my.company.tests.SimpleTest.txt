@@ -1,0 +1,33 @@
+-------------------------------------------------------------------------------
+Test set: my.company.tests.SimpleTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.796 sec <<< FAILURE! - in my.company.tests.SimpleTest
+SimpleTest[1](my.company.tests.SimpleTest)  Time elapsed: 0.015 sec  <<< FAILURE!
+java.lang.AssertionError:  Делитель равен 0
+	at org.junit.Assert.fail(Assert.java:88)
+	at my.company.tests.SimpleTest.getDivisionResult(SimpleTest.java:88)
+	at my.company.tests.SimpleTest.SimpleTest(SimpleTest.java:74)
+
+SimpleTest[4](my.company.tests.SimpleTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<0.0> but was:<2.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at my.company.tests.SimpleTest.SimpleTest(SimpleTest.java:72)
+
+SimpleTest[6](my.company.tests.SimpleTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError:  Делитель равен 0
+	at org.junit.Assert.fail(Assert.java:88)
+	at my.company.tests.SimpleTest.getDivisionResult(SimpleTest.java:88)
+	at my.company.tests.SimpleTest.SimpleTest(SimpleTest.java:74)
+
+SimpleTest[7](my.company.tests.SimpleTest)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1.3333333333333333> but was:<1.0>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:553)
+	at org.junit.Assert.assertEquals(Assert.java:683)
+	at my.company.tests.SimpleTest.getDivisionResult(SimpleTest.java:86)
+	at my.company.tests.SimpleTest.SimpleTest(SimpleTest.java:74)
+

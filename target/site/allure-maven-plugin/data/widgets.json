@@ -1,0 +1,52 @@
+{
+  "hash" : "f0f9583e3b2974a632a09536fa6cd0de93829600",
+  "data" : [ {
+    "name" : "defects",
+    "type" : "DEFECTS",
+    "data" : [ {
+      "count" : 2,
+      "message" : "AssertionError:  Делитель равен 0",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: expected:<0.0> but was:<2.0>",
+      "status" : "FAILED"
+    }, {
+      "count" : 1,
+      "message" : "AssertionError: expected:<1.3333333333333333> but was:<1.0>",
+      "status" : "FAILED"
+    } ]
+  }, {
+    "name" : "xunit",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "This is of calculate test",
+      "statistic" : {
+        "total" : 9,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 4,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "behaviors",
+    "type" : "TITLE_STATISTICS",
+    "data" : [ {
+      "title" : "Without feature",
+      "statistic" : {
+        "total" : 9,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 4,
+        "broken" : 0
+      }
+    } ]
+  }, {
+    "name" : "environment",
+    "type" : "KEY_VALUE",
+    "data" : [ ]
+  } ]
+}
