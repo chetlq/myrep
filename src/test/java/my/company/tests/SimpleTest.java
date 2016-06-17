@@ -44,7 +44,7 @@ public class SimpleTest {
                 //Извлекаем данные из файла
                 Files.lines(Paths.get(dir+"/file.txt")).forEach(p->transform.add(p.split(";")));
 				
-                /*Альтернативный способ извелчь данные из файла
+                /*Альтернативный способ извелчения данных из файла
                 Collection<String> collection = Files.lines(Paths.get(dir+"/file.txt")).collect(Collectors.toList());
                 for(String col:collection)
                 { 
